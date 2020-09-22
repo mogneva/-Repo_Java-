@@ -5,44 +5,47 @@ public class TestFile {
         System.out.println("Hello World!");
 
 
-        byte hours = 24;
-        System.out.println("It is " + 24 + " Hours in a day");
-
-        short noOfDaysInYear = 365;
-        System.out.println( "Days In Year " + noOfDaysInYear );
-
-        short noOfWorkers = 417;
-        System.out.println(" Flower Organization Has " + noOfWorkers + " Employees. ");
-
-        long curentPopulation = 43676008L;
-        System.out.println( " The Ukraine Population " + curentPopulation);
-
-        float accountBalance = 871.00F;
-        System.out.println(" Accout Balance " + accountBalance );
-
-        boolean value = false;
-        System.out.println(" Does The Sun Rise from the west ->" + value);
-
-        char initial1 = 'M';
-        char initial2 = 'O';
-        System.out.println( initial1 +"."+initial2+".");
-
-        char fullName = 'M';
-        System.out.println(fullName+"aryna Ognev");
 
 
+        double fTemp = 72;
+        double cTemp =(fTemp - 32) * 5/9;
+        System.out.println(fTemp + " F is equal to " + cTemp + " deg Celsius");
+
+
+        //  kT(K) = (T(°F) + 459.67)× 5/9
+
+        double oTemp = 97;
+        double kTemp =(oTemp + 459.67) * 5/9;
+        System.out.println(oTemp + " F is equal to" + kTemp + " deg Kelvin");
+
+
+        //  T(°C) = T(K) - 273.15
+
+        double cTem = 10;
+        double kTem =(cTem - 273.15);
+        System.out.println(kTem + " K is equal to " + cTem + " deg C ");
+
+        //  T(°F) = T(K) × 9/5 - 459.67
+        double kTe = 387;
+        double fTe =(kTe * 9/5 -( 459.67));
+        System.out.println(fTe + " F is equal to " + kTe + " deg K ");
+
+
+        // T(°F) = T(°C) × 9/5 + 32
+        double cT = 17;
+        double fT =((cT * 9/5) + 32);
+        System.out.println( cT + " C is equal to " + fT + " deg F ");
+
+
+        // T(K) = T(°C) + 273.15
+        double cTt = 15;
+        double kTt =(cTt + 273.15);
+        System.out.println(cTt + " C is equal to " + kTt + " deg K");
 
 
 
 
 
-
-
-        int miles = 3, km=5;
-        double kmInMile = 1.61;
-        double milesInKm = miles * kmInMile;
-        boolean isTrue = (milesInKm == km);
-        System.out.println(" is " + miles + " miles equal to "+ km+"km ->"+ isTrue);
 
 
     }
